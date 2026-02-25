@@ -1,26 +1,36 @@
 body {
    background-color: black; 
-   background-image: url(assets/Batman_4.png);
+   background-image: url(assets/Batman_15.png);
    background-repeat: no-repeat;
    background-size: cover;
+   background-attachment: fixed;
    color:white;
 }
+.titulo{
+    text-align: center;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    color:rgb(255, 255, 255);
+    font-size: large;
+    
+}
+
 img {
     height: 300px;
     border: 5px solid white;
     border-radius: 50px;
 }
 
+a{
+    color: brown;
+}
+
 p {
-    color:aqua;
+    color: white;
 }
 
 footer p{
-    color:darkgoldenrod;
+    color:rgb(255, 255, 255);
 }
 h1 {
-    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
-    color:darkgoldenrod;
-    font-size: large;
-    padding: 100px;
+    
 }
